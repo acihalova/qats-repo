@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rest Api Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="expected-timeout" value="300"/>
+  <test thread-count="5" name="Test REST API(failed)">
+    <classes>
+      <class name="test.WebTest">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="AfterTest"/>
+          <include name="test1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.WebTest -->
+    </classes>
+  </test> <!-- Test REST API(failed) -->
+</suite> <!-- Failed suite [Rest Api Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Api Suite">
+  <parameter name="expected-timeout" value="300"/>
+  <test name="Test REST API">    
+    <classes>
+       <class name="test.WebTest">
+	       <methods>
+	              <include name="test2" />
+	       </methods>
+       </class>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
